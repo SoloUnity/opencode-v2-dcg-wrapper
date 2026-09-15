@@ -8,7 +8,8 @@ binary before OpenCode runs them.
 ## Install
 
 Install `dcg` from its upstream project first. The plugin uses `DCG_BIN` when
-set, then `$HOME/.local/bin/dcg`, then `dcg` from `PATH`:
+set. Without it, it uses `$HOME/.local/bin/dcg`, which is the default location
+used by the current setup. Set the variable when DCG is installed elsewhere:
 
 ```sh
 export DCG_BIN="$(command -v dcg)"
