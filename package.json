@@ -1,0 +1,11 @@
+{
+  "name": "opencode-dcg-guard",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": "./dcg-guard.js",
+  "license": "MIT",
+  "repository": "https://github.com/SoloUnity/opencode-dcg-guard",
+  "engines": {
+    "node": ">=22"
+  }
+}
