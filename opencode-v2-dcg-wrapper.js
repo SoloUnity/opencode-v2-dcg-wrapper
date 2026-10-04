@@ -1,7 +1,6 @@
 // OpenCode V2 adapter for Destructive Command Guard.
 // Keep this path absolute because OpenCode can run with a reduced PATH.
-const DCG_BIN = process.env.DCG_BIN ||
-  (process.env.HOME ? `${process.env.HOME}/.local/bin/dcg` : "dcg")
+const DCG_BIN = "/Users/gordon.ng/.local/bin/dcg"
 const DCG_TIMEOUT_MS = 3_000
 const DCG_MAX_OUTPUT_BYTES = 1_048_576
 
