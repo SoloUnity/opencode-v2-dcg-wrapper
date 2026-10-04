@@ -1,10 +1,10 @@
 {
-  "name": "opencode-dcg-guard",
+  "name": "opencode-v2-dcg-wrapper",
   "version": "1.0.0",
   "type": "module",
-  "exports": "./dcg-guard.js",
+  "exports": "./opencode-v2-dcg-wrapper.js",
   "license": "MIT",
-  "repository": "https://github.com/SoloUnity/opencode-dcg-guard",
+  "repository": "https://github.com/SoloUnity/opencode-v2-dcg-wrapper",
   "engines": {
     "node": ">=22"
   }

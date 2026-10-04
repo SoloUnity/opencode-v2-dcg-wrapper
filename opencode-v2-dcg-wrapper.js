@@ -76,7 +76,7 @@ async function checkCommand(command) {
 }
 
 export default {
-  id: "dcg.guard",
+  id: "opencode-v2-dcg-wrapper",
   async setup(ctx) {
     await ctx.shell.hook("create.before", async (event) => {
       if (typeof event.command !== "string" || event.command.length === 0) return

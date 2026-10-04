@@ -1,6 +1,6 @@
-# OpenCode DCG guard
+# opencode-v2-dcg-wrapper
 
-This plugin is the local OpenCode adapter used by the setup. It checks shell
+This plugin is the local OpenCode V2 wrapper used by the setup. It checks shell
 commands with the separately installed
 [Destructive Command Guard](https://github.com/Dicklesworthstone/destructive_command_guard)
 binary before OpenCode runs them.
@@ -16,7 +16,7 @@ export DCG_BIN="$(command -v dcg)"
 ```
 
 OpenCode loads this file automatically when it is linked as
-`~/.config/opencode/plugins/dcg-guard.js`.
+`~/.config/opencode/plugins/opencode-v2-dcg-wrapper.js`.
 
 The plugin fails closed when the safety evaluation cannot run or returns an
 unknown result. The DCG binary is not included in this repository. DCG has its
